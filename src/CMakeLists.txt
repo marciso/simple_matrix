@@ -1,7 +1,13 @@
 
 add_library(matrix STATIC
-    matrix.hpp
-    matrix.cpp
+    dummy.cpp
+    simple_matrix.hpp
+    transpose.hpp
+    slice.hpp
+    addition.hpp
+    naive_multiplication.hpp
+    scalar.hpp
+    apply.hpp
 )
 
 target_include_directories(matrix

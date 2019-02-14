@@ -7,7 +7,7 @@ build:
 
 .PHONY: cmake
 cmake: build
-	cd build && cmake ..
+	cd build && cmake -DCMAKE_BUILD_TYPE=Debug ..
 
 .PHONY: compile
 compile: cmake

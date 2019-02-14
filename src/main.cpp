@@ -1,4 +1,4 @@
-#include "matrix.hpp"
+#include "simple_matrix.hpp"
 
 int main(int argc, char** argv)
 {
